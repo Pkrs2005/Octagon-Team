@@ -1,0 +1,417 @@
+
+#all_Id{
+    /* Личный кабинет 1 (все заросы) */
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.84);
+
+}
+#menu {
+    /* Меню */
+    position: absolute;
+    height: 80vh; /* Высота 80% от высоты экрана */
+    left: 2.43%;
+    right: 77.25%;
+    top: 10vh;
+    background-color: #ffffff;
+    border-radius: 10px; /* Закругление краев на 10 пикселей */
+}
+
+#Profile {
+   /* Profile */
+    position: relative;
+    width: 80%; /* Ширина 80% от родительского элемента */
+    height: 10%; /* Высота 10% от родительского элемента */
+    top: 5%; /* Смещение сверху 5% от родительского элемента */
+    left: 10%; /* Смещение слева 10% от родительского элемента */
+}
+
+
+#PlaceProfilePhoto {
+    /* man-438081_960_720 */
+    position: relative; /* Изменено на относительное позиционирование */
+    width: 20%; /* Задайте желаемую ширину и высоту */
+    height: 80%;
+    top: 10%; 
+    left: 5%;
+}
+#ProfilePhoto {
+    position: relative; /* Изменено на абсолютное позиционирование */
+    width: 100%; /* Задайте ширину 100%, чтобы он занимал всю доступную ширину */
+    height: 100%; /* Задайте высоту 100%, чтобы он занимал всю доступную высоту */
+    border-radius: 70% / 70%; /* 50% для горизонтального и 70% для вертикального */
+    background-size: cover; /* Настроить размер фонового изображения */
+    background-position: center; /* Настроить позицию фонового изображения */
+}
+#Name {
+    position: absolute;
+    top: 25%; /* Центрирование по вертикали */
+    left: 40%; /* Отступ от изображения профиля */
+    transform: translateY(-50%); /* Коррекция положения по вертикали */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #404040;
+}
+#Admin {
+    position: absolute;
+    top: 75%; /* Центрирование по вертикали */
+    left: 40%; /* Отступ от изображения профиля */
+    transform: translateY(-50%); /* Коррекция положения по вертикали */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: #565656;
+}
+
+#Frame_75 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 31px;
+
+    position: relative;
+    width: 227px;
+    height: 213.22px;
+    left: 14%; /* Используем такой же отступ слева, как и #menu */
+    top: 17%;
+}
+#button1{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 3px 35px;
+gap: 10px;
+
+width: 227px;
+height: 30px;
+
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+.button-menu {
+        /* Документы */
+
+    width: 206px;
+    height: 19px;
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    background: #fafafa;
+    /* identical to box height */
+
+    color: #202224;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    cursor: pointer;
+    border: none; /* Убираем границу */
+    text-align: left;
+}
+
+    
+    .button-style2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 11px 31px;
+        gap: 30px;
+        position: absolute;
+         width: 126px;
+         height: 25px;
+         left: 89%;
+         top: 30%;
+    
+        background: #95FF8099;
+        border: none;
+        border-radius: 50px;
+    
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        font-weight: bold;
+    
+        cursor: pointer;
+        outline: none;
+    }
+    .button-style1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 11px 31px;
+        gap: 30px;
+        
+    
+        background: #9705EF;
+        border: none;
+        border-radius: 50px;
+    
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+    
+        cursor: pointer;
+        outline: none;
+    }
+    .button-style1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 11px 31px;
+        gap: 30px;
+
+    
+        background: #9705EF;
+        border: none;
+        border-radius: 50px;
+    
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+    
+        cursor: pointer;
+        outline: none;
+    }
+    .button-style3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 11px 31px;
+        gap: 30px;
+        position: absolute;
+         width: 126px;
+         height: 25px;
+         left: 75%;
+         top: 30%;
+    
+        background: #9705EF;
+        border: none;
+        border-radius: 50px;
+    
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+    
+        cursor: pointer;
+        outline: none;
+    }
+#CreateRequest{
+    position: relative;
+    width: 227px;
+    height: 213.22px;
+    left: 14%; /* Используем такой же отступ слева, как и #menu */
+    top: 30%;
+
+}
+#RightSide{position: absolute;
+    height: 80vh;
+left: 24.58%;
+right: 2.22%;
+top: 10vh;
+background:#F0E8F4;
+border-radius: 10px;
+}
+#SearchBar{
+box-sizing: border-box;
+
+position: relative;
+left: 3.11%;
+width: 355px;
+height: 40px;
+top: 3.91%;
+image-rendering: 50%;
+
+background: #F8F5F5;
+border: 0.6px solid #D5D5D5;
+border-radius: 20px;
+z-index: 0;}
+
+#Indicator{
+position: relative;
+width: 86px;
+height: 30px;
+left: 90.28%;
+top: -15px;
+}
+#Line{ 
+
+position: relative;
+left: 43px;
+height: 30px;
+width: 0.5px;
+
+
+mix-blend-mode: normal;
+opacity: 0.7;
+border: 0.4px solid #4b4b4b;
+}
+
+
+#ic-keyboard-arrow-right-24px{
+    position: absolute;
+    scale: 75%;
+    right: -11%;
+    top: 8.78%;
+    height: 29px;
+    width: 43px;
+    
+    
+
+    border: none;
+    cursor: pointer;
+}
+#ic-keyboard-arrow-left-24px {
+
+    position: absolute;
+    
+    left: -8%;
+    top: 8.78%;
+    scale: 75%;
+    height: 29px;
+    width: 43px;
+    
+    
+
+    border: none;
+    cursor: pointer;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+#firstMassage{
+    /* Message */
+
+    position: absolute;
+    left: 0%;
+    top: 15.28%;
+    height: 10%;
+    width:96% ;
+
+
+}
+
+#CheckBox{
+
+position: absolute;
+left: 1.04%;
+top: 32.28%;
+height: 18px;
+    width:18px ;
+
+border: 1.2px solid #B3B3B3;
+border-radius: 3px;}
+#OurBachelorofComm{
+position: absolute;
+left: 45.51%;
+
+top: 20%;
+
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+
+color: #202224;
+
+mix-blend-mode: normal;
+opacity: 0.9;}
+
+
+#JulluJalal1
+{
+/* Jullu Jalal */
+
+position: absolute;
+left: 4.74%;
+top: 1.06%;
+
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+
+color: #202224;
+
+
+
+color: #202224;
+}
+#JulluJalal2
+{
+position: absolute;
+left: 4.74%;
+top: 40.06%;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+
+color: #202224;
+}
+#button87987979
+{
+
+position: absolute;
+left: 9.1%;
+right: 78.99%;
+top: 15.45%;
+bottom: 83.78%;
+
+
+}
+.button-style-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 31px;
+    
+    position: absolute;
+    width: 243.49px;
+    height: 48.89px;
+
+    gap: 0px;
+    opacity: 0px;
+    
+
+    background: #9705EF;
+    border: none;
+    border-radius: 8px;
+
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+    outline: none;
+}
+
+
+
+
+
+
+

@@ -14,7 +14,7 @@ class HomePage extends React.Component{
     render() {
         return (
             <div>
-                <h1>Типо хоумейдж</h1>
+                <h1>Типо хоумпейдж</h1>
                 <div id="button">
                     <Button url="http://localhost:3000/AuthorizationWin" />
                 </div>

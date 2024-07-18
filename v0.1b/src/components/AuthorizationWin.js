@@ -2,6 +2,7 @@ import React from "react"
 import Button from "./Button"
 import "../css/authorizationWin.css"
 
+
 class AuthorizationWin extends React.Component{
     constructor(props){
         super(props)
@@ -9,11 +10,14 @@ class AuthorizationWin extends React.Component{
             
         }
     }
+    
+   
 
-    render() {return (<div id = "all_Id">
+    render() {return (
+    <div id = "all_Id" >
         <div id = "authWindow_Id">
             <div id = "button">
-                <Button/>
+                <Button className="button-style" url="http://localhost:3000/PersonalArea"/>
             </div>
             <div>
                 <div id  = "Frame_57">
@@ -42,10 +46,10 @@ class AuthorizationWin extends React.Component{
                 </div>
             </div>
         </div>
-        <div id =  "logo_zelyony_3">
-        </div>
-        
-        <div id =  "logo_а_4">
+        <div id = "place_for_pictures">
+            <div id =  "logo_zelyony_3"></div>
+            
+            <div id =  "logo_а_4"></div>
         </div>
     </div>)
     }

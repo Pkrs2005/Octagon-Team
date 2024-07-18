@@ -1,9 +1,11 @@
 #all_Id{
+    
     position: relative;
     width: 100%;
     height: 100%;
 
-    background: rgba(246, 237, 251, 0.84);
+    background: #332DFBD6;
+    
 }
 #authWindow_Id{
 
@@ -11,7 +13,7 @@
     width: 850px;
     height: 1024px;
     left: -2px;
-    top: 0px;
+    top: -200px;
 
     background: #FDF9FF;
     border-radius: 0px 60px 60px 0px;
@@ -30,6 +32,7 @@
     height: 299px;
     left: 223px;
     top: 322px;
+    
 }
 
 
@@ -108,13 +111,19 @@ order: 0;
 flex-grow: 0;
 
 }
-
+#place_for_pictures{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 850px;
+    
+}
 #logo_zelyony_3{
-position: absolute;
-width: 766.16px;
-height: 669.41px;
-left: 803px;
-top: 75px;
+position: relative;
+width: 866.16px;
+height: 869.41px;
+top:-170px;
+
 
 background: url(../img/greenGexagon.png);
 background-size: cover;
@@ -122,11 +131,10 @@ transform: rotate(-34.47deg);
 }
 /* logo_а 4 */
 #logo_а_4{
-position: absolute;
-width: 406.76px;
-height: 394.16px;
-left: 890.22px;
-top: 404.56px;
+position: relative;
+width: 556.76px;
+height: 554.16px;
+top:-750px;
 
 background: url(../img/logo_а.png);
 background-size: cover;
@@ -231,7 +239,7 @@ top: 663px;
 
 
 
-button {
+.button-style {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -252,12 +260,4 @@ button {
     cursor: pointer; /* Добавлено для показа, что кнопка является интерактивной */
 
     outline: none; /* Убирает контур фокуса при нажатии */
-}
-
-button:hover {
-    /* Любые стили при наведении */
-}
-
-button:focus {
-    /* Любые стили при фокусе (например, для доступности) */
 }

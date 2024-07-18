@@ -7,11 +7,11 @@ class Button extends React.Component {
     }
 
     render() {
-        const { url, text } = this.props;
+        const { url, text, className } = this.props;
 
         return (
             <div>
-                <button onClick={() => window.location.assign(url)}>{text}</button>
+                <button  className = { className} onClick={() => window.location.assign(url)}>{text}</button>
             </div>
         );
     }
