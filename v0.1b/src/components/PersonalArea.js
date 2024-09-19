@@ -1,13 +1,19 @@
 import React from "react";
-import "../css/PersonalArea.css";
+import  "../css/PersonalArea.css";
 import Button from "./Button";
 import profileImage from "../img/profile.png"; // Импортируем изображение профиля
 import search from "../img/search.png";
 import path from "../img/path.png";
+import SimpleModal from  "./modal/SimpleModal.js"
+
+
     class PersonalArea extends React.Component {
         constructor(props) {
             super(props);
-            this.state = {};
+            this.state = {
+                active: false,
+                setActive:false,
+            };
         }
         handleInputChange = (event) => {
             // Обработка изменений в поле ввода
@@ -29,10 +35,13 @@ import path from "../img/path.png";
             // Возвращаем цвет фона по умолчанию при размонтировании компонента
             document.body.style.backgroundColor = ''; // Убираем изменения, чтобы вернуть цвет по умолчанию
         }
-       
+        
+
         render() {
+            
             return (
                 <div id="all_Id">
+                    <SimpleModal active = {this.state.active} setActive = {(active)=> this.setState({modal:active})}/>
                     <div id="menu">
                         <div id="Profile">
                             <div id = "Name"><p>Name123123</p></div>

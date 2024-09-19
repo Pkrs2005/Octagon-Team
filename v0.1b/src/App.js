@@ -2,6 +2,8 @@ import React from "react";
 import AuthorizationWin from "./components/AuthorizationWin";
 import PersonalArea from "./components/PersonalArea";
 import HomePage from './components/HomePage';
+import AdminPanel_userbase from './components/AdminPanel_userbase';
+import AdminPanel from './components/AdminPanel';
 import {
     BrowserRouter,
     Routes,
@@ -22,6 +24,8 @@ class App extends React.Component {
                     <Route exact path="/" element={<HomePage />} />
                     <Route path="/AuthorizationWin" element={<AuthorizationWin />} />
                     <Route path="/PersonalArea" element={<PersonalArea />} />
+                    <Route path="/AdminPanel" element={<AdminPanel />} />
+                    <Route path="/AdminPanel_userbase" element={<AdminPanel_userbase />} />
                 </Routes>
             </BrowserRouter>
         );
