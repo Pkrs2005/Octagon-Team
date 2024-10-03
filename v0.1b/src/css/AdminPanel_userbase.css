@@ -12,13 +12,14 @@
 #menu {
     /* Меню */
     position: absolute;
-    height: 80vh; /* Высота 80% от высоты экрана */
+    height: 90vh; /* Высота 80% от высоты экрана */
     left: 2.43%;
     right: 77.25%;
-    top: 10vh;
+    top:5vh;
     background-color: #ffffff;
     border-radius: 10px; /* Закругление краев на 10 пикселей */
     z-index: 1;
+
 }
 
 #Profile {
@@ -39,6 +40,126 @@
     top: 10%; 
     left: 5%;
 }
+#PlaceProfilePhoto1{
+    position: relative; /* Изменено на относительное позиционирование */
+    width: 70px; /* Задайте желаемую ширину и высоту */
+    height: 70px;
+    top: 10%; 
+    left: 45%;
+}
+#PlaceForForm{
+    /* Form */
+
+position: relative;
+width: 50%;
+height:60%;
+left: 0%;
+top: 12%;
+
+
+}
+
+#RightSide{
+    position: absolute;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    left: 24.58%;
+    right: 2.22%;
+    top: 5vh;
+    background:#F0E8F4;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+#PlaceForForm {
+    position: relative; /* Установить относительное позиционирование для дочерних элементов */
+    width: 100%; /* Ширина формы */
+    max-width: 800px; /* Максимальная ширина формы */
+    margin: 20px auto; /* Центрирование формы */
+    padding: 20px; /* Отступы внутри формы */
+    /* border: 1px solid #ccc; */ /* Убрали границу формы */
+    border-radius: 10px; /* Скругление углов */
+    
+}
+
+#Place1, #Place2, #Place3, #Place4, #Place5, #Place6, #Place7, #Place8 {
+    position: absolute; /* Абсолютное позиционирование */
+    width: 40%; /* Ширина */
+    height: 15%; /* Высота */
+}
+
+#Place1 {
+    left: 5%; /* Отступ слева */
+    top: 5%; /* Отступ сверху */
+}
+
+#Place2 {
+    left: 55%; /* Отступ слева */
+    top: 5%; /* Отступ сверху */
+}
+
+#Place3 {
+    left: 5%; /* Отступ слева */
+    top: 25%; /* Отступ сверху */
+}
+
+#Place4 {
+    left: 55%; /* Отступ слева */
+    top: 25%; /* Отступ сверху */
+}
+
+#Place5 {
+    left: 5%; /* Отступ слева */
+    top: 45%; /* Отступ сверху */
+}
+
+#Place6 {
+    left: 55%; /* Отступ слева */
+    top: 45%; /* Отступ сверху */
+}
+
+#Place7 {
+    left: 5%; /* Отступ слева */
+    top: 65%; /* Отступ сверху */
+}
+
+#Place8 {
+    left: 55%; /* Отступ слева */
+    top: 65%; /* Отступ сверху */
+}
+
+#PlaceForForm label {
+    margin-bottom: 5px; /* Отступ под меткой */
+    font-weight: bold; /* Жирный текст */
+    color: #333; /* Цвет текста метки */
+    display: block; /* Блочный элемент, чтобы текст был над полем */
+}
+
+#PlaceForForm input,
+#PlaceForForm select,
+#PlaceForForm textarea {
+    width: 100%; /* Занимает всю ширину родителя */
+    padding: 10px; /* Отступы внутри поля */
+    border: none; /* Убираем границу */
+    border-radius: 5px; /* Скругление углов */
+    box-sizing: border-box; /* Учитывать отступы и границы в ширину */
+    font-size: 14px; /* Размер шрифта */
+    background-color: #eaeaea; /* Цвет фона полей */
+}
+
+#PlaceForForm input:focus,
+#PlaceForForm select:focus,
+#PlaceForForm textarea:focus {
+    outline: none; /* Убрать стандартное обрамление */
+    background-color: #d0d0d0; /* Цвет фона при фокусе (по желанию) */
+}
+
+#PlaceForForm textarea {
+    height: 100px; /* Высота текстового поля */
+    resize: vertical; /* Разрешить изменение размера только по вертикали */
+}
+
 #ProfilePhoto {
     position: relative; /* Изменено на абсолютное позиционирование */
     width: 100%; /* Задайте ширину 100%, чтобы он занимал всю доступную ширину */
@@ -230,19 +351,11 @@ flex-grow: 0;
     position: relative;
     width: 227px;
     height: 213.22px;
-    left: 14%; /* Используем такой же отступ слева, как и #menu */
-    top: 34%;
+    left: 20%; /* Используем такой же отступ слева, как и #menu */
+    top: 36%;
 
 }
-#RightSide{position: absolute;
-    height: 80vh;
-left: 24.58%;
-right: 2.22%;
-top: 10vh;
-background:#F0E8F4;
-border-radius: 10px;
-z-index: 1;
-}
+
 #SearchBar{
 box-sizing: border-box;
 
@@ -384,14 +497,12 @@ line-height: 16px;
 
 color: #202224;
 }
-#button87987979
+#button87987979123
 {
 
 position: absolute;
-left: 9.1%;
-right: 78.99%;
-top: 15.45%;
-bottom: 83.78%;
+left: 35%;
+bottom: 12%;
 
 
 }
@@ -419,7 +530,35 @@ bottom: 83.78%;
 
     cursor: pointer;
     outline: none;
+    
 }
+.button-style-menu1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 31px;
+    
+    position: absolute;
+    width: 243.49px;
+    height: 48.89px;
+
+    gap: 0px;
+    opacity: 0px;
+    
+
+    background: #95FF80CC;
+    ;
+    border: none;
+    border-radius: 8px;
+
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+    outline: none;
+}
+
 
 
 

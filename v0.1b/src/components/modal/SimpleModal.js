@@ -28,12 +28,13 @@ class Modal extends React.Component {
 
                         </div>
                         <div id = "Frame71"> 
-                            <imput id = "LastName" onChange={this.handleValueChange}/>
-                            <imput id = "FirstNName" onChange={this.handleInputChange}/>
-                            <imput id = "NumberOfDoc" onChange={this.handleInputChange}/>
-                            <imput id = "AdditionalMassege" onChange={this.handleInputChange}/>
+                            <input type="text" id = "LastName" onChange={this.handleValueChange} placeholder = "  Фамилия"/>
+                            <input type="text" id = "FirstNName" onChange={this.handleInputChange} placeholder = "  Имя"/>
+                            <input type="text" id = "NumberOfDoc" onChange={this.handleInputChange}   placeholder = "  Отчество"/>
+                            <input type="text" id = "NumberOfDoc" onChange={this.handleInputChange}   placeholder = "    Название документа"/>
+                            <input type="text" id = "AdditionalMassege" onChange={this.handleInputChange} placeholder = "  Дополнительное сообщение"/>
                         </div>
-                        <Button  text = "Отправить запрос" className="button-send-request" url = ""/>
+                        <Button  text = "Отправить запрос" className="button-send-request" url = "" />
                     </div>
                     
                 </div>

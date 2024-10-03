@@ -4,6 +4,7 @@ import PersonalArea from "./components/PersonalArea";
 import HomePage from './components/HomePage';
 import AdminPanel_userbase from './components/AdminPanel_userbase';
 import AdminPanel from './components/AdminPanel';
+import UserInfo from './components/UserInfo';
 import {
     BrowserRouter,
     Routes,
@@ -26,6 +27,8 @@ class App extends React.Component {
                     <Route path="/PersonalArea" element={<PersonalArea />} />
                     <Route path="/AdminPanel" element={<AdminPanel />} />
                     <Route path="/AdminPanel_userbase" element={<AdminPanel_userbase />} />
+                    <Route path="/UserInfo" element={<UserInfo />} />
+                    
                 </Routes>
             </BrowserRouter>
         );

@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/AdminPanel_userbase.css";
+import "../css/AdminPanel.css";
 import Button from "./Button";
 import profileImage from "../img/profile.png"; // Импортируем изображение профиля
 import search from "../img/search.png";
@@ -48,8 +48,8 @@ import {SimpleModal} from "./modal/SimpleModal.js";
                             </div></div>
                         </div>
                         <div id = "button87987979">
-                        <Button  text = "Админ панель" className="button-style-menu" url = ""/> 
-                            </div>
+                            <Button  text = "Админ панель" className="button-style-menu" url = ""/> 
+                        </div>
                         
                         <div id = "Frame_75">
                             {/* добавить ссылки к кнопкам*/}
@@ -69,22 +69,51 @@ import {SimpleModal} from "./modal/SimpleModal.js";
                         
                     </div>
                     <div id = "RightSide">
-                    
-                        <input id="SearchBar" style={{ backgroundImage: `url(${search})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'left center' }} onChange={this.handleInputChange} />
-                        <div id = "Indicator">
-                            <div id = "Line"></div>
-                            <button id = "ic-keyboard-arrow-right-24px" style={{ backgroundImage: `url(${path})`, backgroundRepeat: 'no-repeat'}} />
-                            <button id = "ic-keyboard-arrow-left-24px" style={{ backgroundImage: `url(${path})`, backgroundRepeat: 'no-repeat'}} />
+                        <div id = "text_adminpanel">
+                            <p>Добавление пользователя</p>
                         </div>
-                        <div className="massage" id = "firstMassage">
-                            <div id="Photo"  style={{ backgroundImage: `url(${profileImage})` }}>
+                        <div id="PlaceProfilePhoto1">
+                                <div id="ProfilePhoto"  style={{ backgroundImage: `url(${profileImage})` }}></div>
+                        </div>
+                        <div id="PlaceForForm">
+                            <div id="Place1">
+                                <label htmlFor="username">Имя пользователя</label>
+                                <input type="text" id="username" placeholder="Введите имя пользователя" />
                             </div>
-                            <input id = "CheckBox"type="checkbox"></input>
-
-                            <p id = "OurBachelorofComm">Начальник отдела продаж</p>
-                            
-                            <p id = "JulluJalal1">Сидорова А. С.</p>
+                            <div id="Place2">
+                                <label htmlFor="position">Должность</label>
+                                <input type="text" id="position" placeholder="Введите должность" />
+                            </div>
+                            <div id="Place3">
+                                <label htmlFor="lastname">Фамилия пользователя</label>
+                                <input type="text" id="lastname" placeholder="Введите фамилию" />
+                            </div>
+                            <div id="Place4">
+                                <label htmlFor="email">Почтовый адрес</label>
+                                <input type="email" id="email" placeholder="Введите почтовый адрес" />
+                            </div>
+                            <div id="Place5">
+                                <label htmlFor="middleName">Отчество пользователя</label>
+                                <input type="text" id="middleName" placeholder="Введите отчество" />
+                            </div>
+                            <div id="Place6">
+                                <label htmlFor="phone">Номер телефона</label>
+                                <input type="tel" id="phone" placeholder="Введите номер телефона" />
+                            </div>
+                            <div id="Place7">
+                                <label htmlFor="login">Логин</label>
+                                <input type="text" id="login" placeholder="Введите логин" />
+                            </div>
+                            <div id="Place8">
+                                <label htmlFor="password">Пароль</label>
+                                <input type="password" id="password" placeholder="Введите пароль" />
+                            </div>
+                            <div id = "button87987979123">
+                                <Button  text = "Добавить пользователя" className="button-style-menu1" url = ""/> 
+                            </div>
                         </div>
+
+
                     </div>
                 </div>
             )

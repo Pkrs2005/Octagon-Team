@@ -1,0 +1,21 @@
+#text_adminpanel{
+    /* Add New Contact */
+
+position: absolute;
+width: 430px;
+height: 44px;
+left: 50vh;
+top: -20px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+/* identical to box height */
+letter-spacing: -0.114286px;
+
+color: #202224;
+
+
+}

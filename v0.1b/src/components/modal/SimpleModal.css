@@ -1,3 +1,9 @@
+input{
+  box-sizing: border-box;
+  padding: 10px;
+  outline: none;
+  border: none;
+}
 .modal {
     position: fixed;
     top: 0;
@@ -155,7 +161,7 @@ display: flex;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
-gap: 30px;
+gap: 15px;
 
 width: 426px;
 height: 427px;
@@ -275,6 +281,7 @@ align-items: center;
     gap: 0px;
     opacity: 0px;
     left: 27%;
+    bottom:50px;
 
     background: #9705EF;
     border: none;

@@ -1,0 +1,383 @@
+#menu1 {
+    /* Меню */
+    position: absolute;
+    height: 90vh; /* Высота 80% от высоты экрана */
+    left: 2.43%;
+    right: 77.25%;
+    top:5vh;
+    background-color: #ffffff;
+    border-radius: 10px; /* Закругление краев на 10 пикселей */
+    z-index: 1;
+    border: 2px solid  #cccccc; /* Пунктирная рамка */
+
+
+}
+#firstMenu { 
+    box-sizing: border-box;
+    position: absolute;
+    width: 90%;
+    height: 20%;
+    left: 5%;
+    top: 2%;
+    background: #FDF9FF;
+    border: 1px solid #B9B9B9;
+    border-radius: 5px;
+    display: flex; /* Используем flex для выравнивания */
+    justify-content: center; /* Центрируем по горизонтали */
+    align-items: flex-start; /* Выравниваем по верхнему краю */
+    padding-top: 10px; /* Отступ сверху */
+}
+.menu-title {
+    font-size: 18px; /* Размер шрифта */
+    font-weight: bold; /* Жирный шрифт */
+    color: #333; /* Цвет текста */
+}
+#secondMenu{
+    /* Frame 89 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 90%;
+    height: 55%;
+    left: 5%;
+    top: 24%;
+
+    background: #FDF9FF;
+    border: 1px solid #B9B9B9;
+    border-radius: 5px;
+
+}
+#thirdMenu{
+    /* Frame 89 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 90%;
+    height: 17%;
+    left: 5%;
+    top: 81%;
+
+    background: #FDF9FF;
+    border: 1px solid #B9B9B9;
+    border-radius: 5px;
+}
+#RightSide1{
+    position: absolute;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    left: 24.58%;
+    right: 2.22%;
+    top: 5vh;
+    background:#FDF9FF;
+    border-radius: 10px;
+    z-index: 1;
+    border: 1px solid #B9B9B9;
+}
+.button-style-menu2 {
+    display: flex; /* Используем flex для выравнивания */
+    flex-direction: row; /* Выравнивание элементов по строкам */
+    justify-content: center; /* Центрируем содержимое */
+    align-items: center; /* Центрируем по вертикали */
+    padding: 11px 31px; /* Отступы */
+    gap: 30px; /* Пробел между элементами */
+    
+    position: absolute; /* Позиционирование */
+    width: 90%; /* Ширина */
+    height: 29px; /* Высота */
+    left: 5%; /* Позиция по оси X */
+    top: 40px;
+    
+
+    background: rgba(149, 255, 128, 0.9); /* Цвет фона с прозрачностью */
+    border-radius: 50px; /* Закругление краев */
+    
+    border: none; /* Убираем рамку */
+    color: rgb(0, 0, 0); /* Цвет текста */
+    font-size: 12px; /* Размер шрифта */
+    font-weight: bold; /* Жирный шрифт */
+    white-space: nowrap;
+
+    cursor: pointer; /* Курсор при наведении */
+    outline: none; /* Убираем контур */
+    opacity: 1; /* Убираем прозрачность */
+}
+.button-style-menu3 {
+    display: flex; /* Используем flex для выравнивания */
+    flex-direction: row; /* Выравнивание элементов по строкам */
+    justify-content: center; /* Центрируем содержимое */
+    align-items: center; /* Центрируем по вертикали */
+    padding: 11px 31px; /* Отступы */
+    gap: 30px; /* Пробел между элементами */
+    
+    position: absolute; /* Позиционирование */
+    width: 90%; /* Ширина */
+    height: 29px; /* Высота */
+    left: 5%; /* Позиция по оси X */
+    top: 80px;
+    
+
+    background: rgba(149, 255, 128, 0.9); /* Цвет фона с прозрачностью */
+    border-radius: 50px; /* Закругление краев */
+    
+    border: none; /* Убираем рамку */
+    color: rgb(0, 0, 0); /* Цвет текста */
+    font-size: 12px; /* Размер шрифта */
+    font-weight: bold; /* Жирный шрифт */
+    white-space: nowrap;
+
+    cursor: pointer; /* Курсор при наведении */
+    outline: none; /* Убираем контур */
+    opacity: 1; /* Убираем прозрачность */
+}
+#infoUsers{
+    /* Информация о пользователе */
+
+position: absolute;
+width: 258px;
+height: 21px;
+left: calc(50% - 258px/2);
+top: 17px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+letter-spacing: -0.114286px;
+
+color: #202224;
+
+
+}
+#q{
+        /* Frame 87 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+
+position: absolute;
+width: 70%;
+height: 16%;
+left: 20px;
+top: 8%;
+    
+}
+#w{
+    /* Frame 87 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+
+position: absolute;
+width: 70%;
+height: 10%;
+left: 20px;
+top: 25%;
+}
+#e{
+    /* Frame 95 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+position: absolute;
+width: 70%;
+height: 10%;
+left: 20px;
+top: 37%;
+
+
+
+}
+#r{
+    /* Frame 96 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+position: absolute;
+width: 70%;
+height: 10%;
+left: 20px;
+top: 49%;
+
+
+
+}
+#t{
+    /* Frame 90 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 70%;
+height: 10%;
+left: 20px;
+top: 61%;
+
+
+
+}
+#y{
+    /* Frame 92 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+
+position: absolute;
+width: 70%;
+height: 10%;
+left: 20px;
+top: 73%;
+
+
+}
+#u{
+    /* Frame 93 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 70%;
+height: 10%;
+left: 20px;
+top: 85%;
+
+
+
+}
+#a{
+    /* Frame 93 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+
+position: absolute;
+width: 70%;
+height: 40%;
+left: 20px;
+top: 12%;
+
+
+
+}
+#s{
+    /* Frame 93 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+
+position: absolute;
+width: 70%;
+height: 40%;
+left: 20px;
+top: 52%;
+
+
+
+}
+#Polya { 
+    box-sizing: border-box;
+    position: absolute;
+    width: 90%;
+    height: auto;
+    left: 5%;
+    top: 15%;
+    background: #FDF9FF;
+    border-radius: 5px;
+    padding: 5px; 
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.field-title {
+    font-size: 14px;
+    font-weight: normal;
+    color: #333;
+}
+
+/* Настройки для каждого элемента */
+.time {
+    margin-left: 10px;
+    margin-right: 40px; /* Расстояние справа для "Время" */
+    margin-bottom: 10px; /* Расстояние снизу */
+}
+
+.date {
+    margin-right: 90px; /* Расстояние справа для "Дата" */
+    margin-bottom: 5px; /* Расстояние снизу */
+}
+
+.team {
+    margin-right: 400px; /* Расстояние справа для "Тим операции" */
+    margin-bottom: 15px; /* Расстояние снизу */
+}
+
+.participants {
+    margin-right: 5px; /* Расстояние справа для "Участники" */
+    margin-bottom: 10px; /* Расстояние снизу */
+}
+
+
+
+
+
+
+
+
